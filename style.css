@@ -1,0 +1,25 @@
+/* At medium screens input should be half the size */
+
+/* until it is 768px following will be applied */
+
+/* The ::before pseudo-element can be used to insert some content before the content of an element.  */
+/* Here we have given body so before body that is at starting of body it will be applied */
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map {
+    height: 100%;
+  }
+  
+
+
+@media (min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
+
